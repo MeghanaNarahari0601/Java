@@ -13,12 +13,9 @@ public class Application {
 		Scanner s2 = new Scanner(System.in);
 		int num2 = s1.nextInt();
 		
-		if(num1 > num2){
-			System.out.println("the greater number is " + num1 );
-		}
-		else{
-			System.out.println("the greater number is " + num2 );
-		}
+		MaxNum m1 = new MaxNum();
+		int answer = m1.findMaxNum(num1, num2);
+		System.out.println(answer + " is the larger number");
 	}
 
 }
