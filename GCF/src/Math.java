@@ -10,7 +10,6 @@ public class Math {
 		    	if(remainder == 0){
 		    		int remainder2 = num2 % i;
 		    		if(remainder2 == 0){
-		    			System.out.println(i + " is the GCF");
 		    			gcf =i;
 		    			break;
 		    			

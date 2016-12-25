@@ -19,18 +19,7 @@ public class Application {
 		System.out.println(answer);
 		
 
-	  /*  for(int i = num1 ; i>0 ; i--){
-	    	int remainder = num1 % i; 
-	    	
-	    	if(remainder == 0){
-	    		int remainder2 = num2 % i;
-	    		if(remainder2 == 0){
-	    			System.out.println(i + " is the GCF");
-	    			break;
-	    		}
-	    } 
-
-	} */
+	 
 
 }
 }
