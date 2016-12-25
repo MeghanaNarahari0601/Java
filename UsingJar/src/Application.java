@@ -14,23 +14,9 @@ public class Application {
 		int num2 = s2.nextInt();
 		
 		Math m1 = new Math();
-		int answer = m1.findGCF(num1, num2);
-		
+		int answer = m1.findLCM(num1, num2);
 		System.out.println(answer);
-		
 
-	  /*  for(int i = num1 ; i>0 ; i--){
-	    	int remainder = num1 % i; 
-	    	
-	    	if(remainder == 0){
-	    		int remainder2 = num2 % i;
-	    		if(remainder2 == 0){
-	    			System.out.println(i + " is the GCF");
-	    			break;
-	    		}
-	    } 
+	}
 
-	} */
-
-}
 }
