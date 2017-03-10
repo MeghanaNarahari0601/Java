@@ -1,0 +1,10 @@
+GPTA Requirements:
+
+-Performace
+	start time
+	duration
+	number of participants
+
+-Participants
+	name
+	contact - phone number
